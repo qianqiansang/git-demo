@@ -2,7 +2,7 @@
 
 __version __ = "0.02"
 
-def greet():
-    print("Hello, world")
+def greet(greeting  = main ):
+    print("Hello, world{}".format(greeting))
 
     print("Zoe branch ")
